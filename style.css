@@ -90,15 +90,39 @@ button {
 
 /* Information Styling */
 
+#info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.info-container {
+  display: flex;
+  gap: 70px;
+  margin-bottom: 7rem;
+}
+
+.info-box {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  align-items: center;
+  justify-content: center;
+}
+
 .box {
   border: solid 4px #3882f6;
   border-radius: 15px;
   height: 150px;
   width: 150px;
+  margin-bottom: 10px;
 }
 
 h2 {
   font-size: 36px;
   font-weight: bolder;
   color: #1f2937;
+  padding: 25px;
 }
