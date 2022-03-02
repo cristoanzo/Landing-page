@@ -36,8 +36,14 @@ a,
   color: #e5e7eb;
 }
 
-.lion {
-  width: 300px;
+.placeholder {
+  height: 200px;
+  width: 550px;
+  background-color: #767f97;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
 }
 
 ul {
@@ -65,8 +71,6 @@ a {
   padding-bottom: 75px;
 }
 
-/* Information Styling */
-
 .header-box {
   width: 450px;
 }
@@ -83,3 +87,5 @@ button {
   padding: 7px 25px;
   border-radius: 7px;
 }
+
+/* Information Styling */
