@@ -84,8 +84,9 @@ button {
   border-style: none;
   color: #ffffff;
   font-weight: bold;
-  padding: 7px 25px;
+  padding: 7px 35px;
   border-radius: 7px;
+  font-size: 17px;
 }
 
 /* Information Styling */
@@ -152,4 +153,36 @@ h2 {
   display: flex;
   width: 50%;
   justify-content: flex-end;
+}
+
+/* call to action styling */
+
+#cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign-up {
+  height: 200px;
+  width: 50%;
+  background-color: #3882f6;
+  border-radius: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #ffffff;
+  flex-shrink: 0;
+  margin: 5%;
+}
+
+.cta-btn {
+  border: 2px solid #ffffff;
+}
+
+p {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
 }
