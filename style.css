@@ -69,7 +69,7 @@ a {
 
 .header-container {
   margin-top: 75px;
-  padding-bottom: 75px;
+  padding-bottom: 5%;
 }
 
 .header-box {
@@ -103,7 +103,7 @@ button {
 .info-container {
   display: flex;
   gap: 70px;
-  margin-bottom: 5%;
+  margin-bottom: 4%;
 }
 
 .info-box {
