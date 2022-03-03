@@ -164,8 +164,8 @@ h2 {
 }
 
 .sign-up {
-  height: 200px;
-  width: 50%;
+  height: 160px;
+  width: 70%;
   background-color: #3882f6;
   border-radius: 11px;
   display: flex;
@@ -173,7 +173,7 @@ h2 {
   justify-content: space-around;
   color: #ffffff;
   flex-shrink: 0;
-  margin: 5%;
+  margin: 7%;
 }
 
 .cta-btn {
@@ -185,4 +185,14 @@ p {
   font-weight: bold;
   margin: 0;
   padding: 0;
+}
+
+/* footer styling */
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  gap: 10px;
 }
