@@ -103,7 +103,7 @@ button {
 .info-container {
   display: flex;
   gap: 70px;
-  margin-bottom: 7rem;
+  margin-bottom: 5%;
 }
 
 .info-box {
@@ -137,7 +137,7 @@ h2 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 5%;
+  padding: 4%;
 }
 
 .quote-text {
@@ -174,7 +174,7 @@ h2 {
   justify-content: space-around;
   color: #ffffff;
   flex-shrink: 0;
-  margin: 7%;
+  margin: 5%;
 }
 
 .cta-btn {
